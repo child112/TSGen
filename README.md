@@ -172,9 +172,17 @@ TSGen 主界面按照功能被划分为以下几个区域（见软件左侧按�
 
 - **双击没反应 / 闪退**  
   请确认 `tsgen/web/assets/` 文件夹未丢失。  
+-
+- **结构预处理打开网页显示空白**  
+  说明本地 HTML 资源缺失或安全软件阻止本地文件加载，可暂时关闭防火墙/安全软件，同时使用 TSGen最新版本（完全修复 PyInstaller 的资源路径问题）
+  
+- **输出文件解析失败**  
+  通常是缺少 “Normal termination”，任务未正常结束或输出文件被截断或计算中断，请检查任务是否正常结束
+  对于Gaussian计算作业，建议使用 G16 或 G09 D.01版本
 
-- **提示缺少 DLL**  
-  安装 [Microsoft Visual C++ Redistributable 2015–2022](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist)。  
+- **加载大型 XYZ 轨迹（>3 GB）时卡顿或失败**  
+  对于AMS产生的ASCII文件，可使用**计算分析**中的**大轨迹文件预处理**功能，选取主要分析的时间段进行分析。
+  同时对大型轨迹文件建议预先进行分段处理，或使用更好性能的硬件配置。
 
 
 
