@@ -1,5 +1,5 @@
 # TSGen ⚛️  
-**Training Set Generator for Reactive Force Fields & Automated Electronic-Structure Workflows**
+**Training Set Generator**
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10%2B-brightgreen)](https://www.python.org/)
