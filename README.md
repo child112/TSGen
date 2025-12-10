@@ -18,7 +18,6 @@ TSGen（**Training Set Generator，训练集生成器**）是一个面向计算�
 
 ## 📦 安装与运行
 
-1. 前往
 1.在 https://github.com/child112/TSGen/releases 下载最新的安装包。 
 2. 解压到非中文且不含空格的路径（例如 `D:\TSGen\`）。  
 3. 双击 `TSGen.exe` 即可启动。  
